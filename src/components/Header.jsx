@@ -1,4 +1,4 @@
-import Button from './button';
+import { Button } from './Button';
 import './Header.css';
 
 const Header = ({ onNavigateAdd, showAddButton }) => (
