@@ -1,0 +1,30 @@
+.btn {
+  display: inline-flex;
+  align-items: center; justify-content: center;
+  padding: 8px 16px; border-radius: 8px;
+  font-weight: 500; transition: all 0.2s ease;
+  border: 1px solid transparent; gap: 8px;
+}
+.btn-primary { 
+  background: blue; 
+  color: white; 
+}
+.btn-primary:hover { 
+  background: rgba(8, 8, 132, 0.719); 
+}
+.btn-danger { 
+  background: red; 
+  color: white; 
+}
+.btn-danger:hover { 
+  background: rgba(195, 3, 3, 0.69); 
+}
+.btn-outline { 
+  background: transparent; 
+  border-color: black; 
+  color: black; 
+}
+.btn-outline:hover { 
+  background: whitesmoke; 
+  color: black; 
+}

@@ -1,0 +1,20 @@
+.student-list.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.student-list.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 32px;
+  background-color: #ffffff;
+  border: 2px dashed #e5e5e5;
+  border-radius: 12px;
+  color: #6b7280;
+}

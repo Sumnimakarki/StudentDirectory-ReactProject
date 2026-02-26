@@ -1,0 +1,17 @@
+.badge {
+  display: inline-flex;
+  padding: 2px 10px; border-radius: 9999px;
+  font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+}
+.badge-success { 
+  background: rgb(110, 233, 110); 
+  color: black; 
+}
+.badge-neutral { 
+  background: wheat; 
+  color: black; 
+}
+.badge-warning { 
+  background: whitesmoke; 
+  color: green; 
+}

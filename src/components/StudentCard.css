@@ -1,0 +1,76 @@
+.student-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.student-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  background-color: #f3f4f6;
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.student-name {
+  font-size: 1.5rem;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.student-course {
+  font-size: 1.1rem;
+  color: #6b7280;
+}
+
+.status-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.grade-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #4f46e5;
+  background: rgba(79, 70, 229, 0.1);
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.card-actions .btn {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1rem;
+}
+
+/* List Row specific styling */
+.student-card.card-list-row {
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 32px;
+}
