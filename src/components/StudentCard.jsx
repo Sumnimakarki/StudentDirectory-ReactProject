@@ -1,4 +1,4 @@
-import Badge from './badge';
+import Badge from './Badge';
 import Button from './Button';
 import './StudentCard.css';
 
