@@ -1,5 +1,5 @@
 import Input from './Input';
-import Button from './button';
+import Button from './Button';
 import './Toolbar.css';
 
 const Toolbar = ({ searchQuery, onSearchChange, filterBy, onFilterChange, sortBy, onSortChange, viewMode, onViewModeToggle }) => (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Input from './Input';
-import Button from './button';
+import Button from './Button';
 import './AddStudentForm.css';
 
 const AddStudentForm = ({ onAddStudent, onCancel }) => {

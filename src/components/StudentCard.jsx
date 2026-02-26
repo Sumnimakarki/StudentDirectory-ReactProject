@@ -1,5 +1,5 @@
 import Badge from './badge';
-import Button from './button';
+import Button from './Button';
 import './StudentCard.css';
 
 const StudentCard = ({ student, onToggleStatus, onDelete, viewMode }) => {
